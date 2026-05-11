@@ -33,7 +33,7 @@ body {
 }
 
 .resume-container {
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   background: var(--pure-white);
   display: flex;
