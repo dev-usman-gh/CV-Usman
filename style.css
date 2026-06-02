@@ -369,7 +369,7 @@ footer {
   body {
     padding: 0;
   }
-  
+
   header {
     padding: 3rem 2rem 2rem 2rem;
   }
@@ -377,21 +377,21 @@ footer {
   main, footer {
     padding: 2.5rem 2rem;
   }
-  
+
   .contact_header ul {
     gap: 1rem;
   }
-  
+
   .item-detail {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  
+
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-  
+
   .name-title .name {
     font-size: 2rem;
   }
