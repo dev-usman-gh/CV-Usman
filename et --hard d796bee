@@ -1,0 +1,256 @@
+[33mcommit d796bee6857d05e81cf461e5c293de9ccca82eae[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MUsman <usmanryk65@gmail.com>
+Date:   Fri Jul 24 00:47:52 2026 +0500
+
+    ok
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 6f45c8a..3b110de 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -4,324 +4,182 @@[m
+     <meta charset="UTF-8" />[m
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[31m-    <title>Muhammad Usman | Full Stack Software Engineer</title>[m
+[31m-    <link rel="stylesheet" href="./style.css" />[m
+[32m+[m[32m    <title>M Usman | Resume</title>[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.googleapis.com" />[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />[m
+     <link[m
+[31m-      rel="stylesheet"[m
+[31m-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"[m
+[31m-      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="[m
+[31m-      crossorigin="anonymous"[m
+[31m-      referrerpolicy="no-referrer" />[m
+[32m+[m[32m      href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap"[m
+[32m+[m[32m      rel="stylesheet" />[m
+[32m+[m[32m    <link rel="stylesheet" href="./style.css" />[m
+   </head>[m
+[31m-[m
+   <body>[m
+[31m-    <div class="resume-container">[m
+[31m-      <header>[m
+[31m-        <div class="header-content">[m
+[31m-          <div class="header-left">[m
+[31m-            <div class="profile_image_small">[m
+[31m-              <img src="usman.jpg" alt="Muhammad Usman" />[m
+[31m-            </div>[m
+[31m-            <div class="name-title">[m
+[31m-              <div class="name">M USMAN</div>[m
+[31m-              <div class="title">Full Stack Software Engineer</div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-          <div class="header-right contact_header">[m
+[31m-            <ul>[m
+[31m-              <li><i class="fa fa-home"></i> <span>Lahore, Pakistan</span></li>[m
+[31m-              <li><i class="fa fa-phone"></i> <span>+92 3154571444</span></li>[m
+[31m-              <li><i class="fa fa-envelope"></i> <span>dev.usman.pk@gmail.com</span></li>[m
+[31m-              <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/usman-mughal-usman/" target="_blank">LinkedIn</a></li>[m
+[31m-              <li><i class="fa fa-github"></i> <a href="https://github.com/M-UsmanMughal" target="_blank">GitHub</a></li>[m
+[31m-            </ul>[m
+[31m-          </div>[m
+[32m+[m[32m    <main class="resume-page">[m
+[32m+[m[32m      <section class="paper">[m
+[32m+[m[32m        <div class="resume-header">[m
+[32m+[m[32m          <h1>M USMAN</h1>[m
+[32m+[m[32m          <p>[m
+[32m+[m[32m            <span>dev.usman.pk@gmail.com</span>[m
+[32m+[m[32m            <span class="sep">&bull;</span>[m
+[32m+[m[32m            <span>LinkedIn</span>[m
+[32m+[m[32m            <span class="sep">&bull;</span>[m
+[32m+[m[32m            <span>GitHub</span>[m
+[32m+[m[32m          </p>[m
+         </div>[m
+[31m-      </header>[m
+ [m
+[31m-      <main>[m
+[31m-        <section class="main-section">[m
+[31m-          <h3 class="heading">Professional Profile</h3>[m
+[31m-          <p class="main_desc">[m
+[31m-            I am a highly motivated and results driven Full Stack Software Engineer from Lahore, Pakistan, with over 3 years of hands on experience in building scalable and high performance web applications. I specialize in modern JavaScript technologies, including React.js, Next.js, and Node.js (Express.js), and have successfully developed and deployed multiple dynamic websites and applications.[m
+[31m-            <br><br>[m
+[31m-            I possess strong expertise in Shopify development, including both custom theme development and Shopify app development. Additionally, I have experience working on blockchain based projects and smart contract integrated web platforms.[m
+[31m-            <br><br>[m
+[31m-            My skill set also includes UI/UX implementation from Figma designs, backend architecture, error handling, and system design. I am capable of managing complex projects from initial concept to deployment, ensuring reliability, performance, and maintainability.[m
+[31m-            <br><br>[m
+[31m-            I am passionate about delivering advanced, user friendly, and business oriented digital solutions.[m
+[32m+[m[32m        <section class="resume-section">[m
+[32m+[m[32m          <h2>PROFESSIONAL SUMMARY</h2>[m
+[32m+[m[32m          <p class="summary-text">[m
+[32m+[m[32m            Full Stack Software Engineer with 3+ years of experience delivering scalable MERN stack,[m
+[32m+[m[32m            Shopify, AI integration, SaaS, ERP, and dashboard applications. Proficient in React.js,[m
+[32m+[m[32m            Next.js, Node.js, Express.js, MongoDB, and REST/GraphQL API development with robust[m
+[32m+[m[32m            authentication and optimization.[m
+           </p>[m
+         </section>[m
+ [m
+[31m-        <section class="main-section">[m
+[31m-          <h3 class="heading">Expertise & Skills</h3>[m
+[31m-          <div class="skills-grid">[m
+[31m-            <div class="skill-category">[m
+[31m-              <div class="skill_title">Frontend & Web</div>[m
+[31m-              <ul>[m
+[31m-                <li>HTML / CSS <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i></span></li>[m
+[31m-                <li>JavaScript (ES6+) <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>React.js / Next.js <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Tailwind / Bootstrap <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Webflow Platform <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Serving Site Developer <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-              </ul>[m
+[31m-            </div>[m
+[31m-            <div class="skill-category">[m
+[31m-              <div class="skill_title">Backend & AI</div>[m
+[31m-              <ul>[m
+[31m-                <li>Node.js / Express <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>MongoDB / MySQL <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>AI Integration <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Authentication <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Security Systems <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>GraphQL & REST APIs <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-              </ul>[m
+[31m-            </div>[m
+[31m-            <div class="skill-category">[m
+[31m-              <div class="skill_title">Ecommerce & Tech</div>[m
+[31m-              <ul>[m
+[31m-                <li>Shopify App Dev <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Shopify Theme Dev <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Blockchain Solidity <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>NFTs & Contracts <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>AR 3D Modals Web <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>AWS & W3 Services <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-              </ul>[m
+[31m-            </div>[m
+[31m-            <div class="skill-category">[m
+[31m-              <div class="skill_title">Design & Product</div>[m
+[31m-              <ul>[m
+[31m-                <li>UI Design <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Application Redesign <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>Product Development <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>MVP Solutions <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-                <li>SEO Optimization <span><i class="fa fa-circle active"></i><i class="fa fa-circle active"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></span></li>[m
+[31m-              </ul>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[31m-        </section>[m
+[32m+[m[32m        <section class="resume-section">[m
+[32m+[m[32m          <h2>WORK EXPERIENCE</h2>[m
+ [m
+[31m-        <section class="main-section">[m
+[31m-          <h3 class="heading">Experience</h3>[m
+[31m-          <div class="item-detail">[m
+[31m-            <div class="item-date">Jan 2024 — Present</div>[m
+[31m-            <div class="item-content">[m
+[31m-              <h3>Full Stack Developer</h3>[m
+[31m-              <div class="item-company">Cyber Nest | Lahore, Pakistan</div>[m
+[31m-              <p class="item-description">[m
+[31m-                • Engineered 15+ full stack applications using React, Next.js, and Node.js.[m
+[31m-                • Boosted user engagement by 40% through intuitive UI/UX implementations.[m
+[31m-                • Optimized API performance, reducing data fetch latency by 35%.[m
+[31m-                • Led front end architecture for large scale dashboard projects.[m
+[31m-                • Mentored junior developers and conducted rigorous code reviews.[m
+[31m-              </p>[m
+[32m+[m[32m          <article class="entry">[m
+[32m+[m[32m            <div class="entry-head">[m
+[32m+[m[32m              <div>[m
+[32m+[m[32m                <h3>Cyber Nest</h3>[m
+[32m+[m[32m                <div class="role">Full Stack Developer</div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div class="date">Jan 2024-Present</div>[m
+             </div>[m
+[31m-          </div>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m              <li>Built and maintained full stack web applications using React.js, Next.js, Node.js, Express.js, and MongoDB, including dashboards, Shopify apps and themes, AI features, authentication, and REST/GraphQL APIs.</li>[m
+[32m+[m[32m              <li>Worked on reusable UI components, backend modules, API optimization, deployment, debugging, and production support.</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m          </article>[m
+ [m
+[31m-          <div class="item-detail">[m
+[31m-            <div class="item-date">Jun 2022 — Dec 2023</div>[m
+[31m-            <div class="item-content">[m
+[31m-              <h3>Freelance Developer</h3>[m
+[31m-              <div class="item-company">Independent | Remote</div>[m
+[31m-              <p class="item-description">[m
+[31m-                • Developed 8+ custom web solutions for international clients using MERN stack.[m
+[31m-                • Specialized in migrating legacy systems to modern Next.js environments.[m
+[31m-                • Achieved a 98% client satisfaction rate through transparent communication.[m
+[31m-                • Implemented complex state management and real-time features.[m
+[31m-              </p>[m
+[32m+[m[32m          <article class="entry">[m
+[32m+[m[32m            <div class="entry-head">[m
+[32m+[m[32m              <div>[m
+[32m+[m[32m                <h3>Independent</h3>[m
+[32m+[m[32m                <div class="role">Freelance Developer</div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div class="date">Jun 2022-Dec 2023</div>[m
+             </div>[m
+[31m-          </div>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m              <li>Delivered responsive MERN stack, Next.js, ecommerce, and business websites for clients.</li>[m
+[32m+[m[32m              <li>Handled frontend development, API integration, authentication, database setup, state management, bug fixing, deployment, and post-launch improvements.</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m          </article>[m
+         </section>[m
+ [m
+[31m-        <section class="main-section">[m
+[31m-          <h3 class="heading">Selected Projects</h3>[m
+[32m+[m[32m        <section class="resume-section">[m
+[32m+[m[32m          <h2>PROJECTS</h2>[m
+ [m
+[31m-          <div class="project-item">[m
+[31m-            <div class="project-info">[m
+[31m-              <h3>Virtual AR Experience <a href="https://apps.shopify.com/virtual-try-ar-experience" target="_blank"><i class="fa fa-external-link"></i></a></h3>[m
+[31m-              <p class="project-desc">[m
+[31m-                Built and launched a production grade Shopify app that installs directly into store themes and enables merchants to attach interactive 3D models to any product. The app automatically syncs product data from Shopify and provides a simple admin flow where merchants first upload 3D assets, then map each model to specific catalog items for instant storefront use.[m
+[31m-                <br><br>[m
+[31m-                Implemented secure billing with recurring payment plans and free trial support, alongside GraphQL based data operations, webhook driven sync, and reliable theme integration. Delivered a real time mobile AR experience where shoppers can view product models through their phone camera, increasing buyer confidence and improving conversion for visually driven products.[m
+[31m-              </p>[m
+[31m-              <div class="project-stack">[m
+[31m-                <span>Shopify</span>[m
+[31m-                <span>Shopify API</span>[m
+[31m-                <span>GraphQL API</span>[m
+[31m-                <span>Webhooks</span>[m
+[31m-                <span>Payment Implementation</span>[m
+[31m-                <span>Next.js App</span>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[32m+[m[32m          <article class="project">[m
+[32m+[m[32m            <h3>TaameerPro</h3>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m              <li>Built an AI powered Construction ERP and Project Management platform with project tracking, budgeting, tasks, payments, invoices, client portal, reports, analytics, English/Urdu i18n, RBAC, JWT authentication, and optimized MongoDB data handling.</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m          </article>[m
+ [m
+[31m-          <div class="project-item">[m
+[31m-            <div class="project-info">[m
+[31m-              <h3>GeoLock Pro <a href="https://apps.shopify.com/geo-lock" target="_blank"><i class="fa fa-external-link"></i></a></h3>[m
+[31m-              <p class="project-desc">[m
+[31m-                Engineered a mission critical Shopify application specializing in geo fencing and access management. The platform enables merchants to dynamically control store visibility and purchasing permissions across 200+ territories using high precision IP geolocation.[m
+[31m-                <br><br>[m
+[31m-                Key technical achievements include the development of a real time webhook synchronization engine to maintain data consistency across thousands of stores, and a custom built currency conversion middleware. Optimized database queries for high traffic stores, resulting in sub 100ms response times for frontend scripts. The app currently facilitates secure cross border trade for international brands, focusing on compliance and localized user experiences.[m
+[31m-              </p>[m
+[31m-              <div class="project-stack">[m
+[31m-                <span>Shopify API</span>[m
+[31m-                <span>Node.js</span>[m
+[31m-                <span>GraphQL</span>[m
+[31m-                <span>React</span>[m
+[31m-                <span>Redis</span>[m
+[31m-                <span>MongoDB</span>[m
+[31m-              </div>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[32m+[m[32m          <article class="project">[m
+[32m+[m[32m            <h3>Virtual AR Experience</h3>[m
+[32m+[m[32m            <ul>[m
+[32m+[m[32m              <li>Developed a Shopify AR app that lets merchants upload 3D product models, map them to catalog items, sync product data, manage subscriptions, and deliver mobile camera based AR product previews.</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m          </article>[m
+ [m
+[31m-          <div class="project-item">[m
+[31m-            <div class="project-info">[m
+[31m-              <h3>Unlatch Cloud <a href="https://www.unlatch.cloud/" target="_blank"><i class="fa fa-external-link"></i></a></h3>[m
+[31m-              <p class="project-desc">[m
+[31m-                Architected and deployed a high security enterprise password vault leveraging zero knowledge proof principles. The application provides a secure environment for teams to manage sensitive credentials with end to end AES 256 GCM encryption.[m
+[31m-                <br><br>[m
+[31m-                Implemented a complex role based access control (RBAC) system that allows granular permission management and automated security audit logging. Designed a scalable multi tenant architecture with a subscription based revenue model, integrating Stripe for automated billing. Focused on performa
