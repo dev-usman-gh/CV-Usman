@@ -87,7 +87,8 @@ a:focus {
 }
 
 .resume-section {
-  border-top: 2px solid var(--line);
+  border-top: 1.25px solid var(--line);
+  box-shadow: 0 -0.5px 0 var(--line);
   padding-top: 12px;
   margin-top: 15px;
 }
